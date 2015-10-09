@@ -1,0 +1,7 @@
+{
+    "sourcePath": "src",
+    "distPath": "dist",
+    "buildTool": "gulp",
+    "webxTemplates": "templates",
+    "templateTheme": "demo"
+}

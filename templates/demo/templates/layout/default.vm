@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Welcome to nodewebx</title>
+
+    ## STYLES
+    <link rel="stylesheet" href="${gitFamily}/${gitVersion}/css/home.css"/>
+</head>
+<body>
+
+## SCREEN
+$screen_placeholder
+
+</body>
+</html>
