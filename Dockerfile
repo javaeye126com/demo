@@ -1,6 +1,5 @@
 
-FROM registry.cn-hangzhou.aliyuncs.com/docker-base-env/centos-base:6.7
-RUN docker login --username=java_eye@126.com --password="Ww819210252" registry.cn-hangzhou.aliyuncs.com
+FROM registry.cn-hangzhou.aliyuncs.com/docker-base-env/centos-base:6.7 
 MAINTAINER sss
 
 WORKDIR /root
