@@ -5,9 +5,9 @@ MAINTAINER admin
 WORKDIR /root
 
 # install   openjdk  1.7
-RUN yum install -y  java-1.7.0-openjdk.x86_64 && \
+RUN yum install -y  java-1.7.0-openjdk.x86_64  
 #mkdir 
-RUN mkdir -p /opt/modules/hadoop /opt/modules/tomcat-7.0.78
+RUN mkdir -p /opt/modules/
  
 #install tomcat7	
 RUN wget http://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-7/v7.0.78/bin/apache-tomcat-7.0.78.tar.gz && \
