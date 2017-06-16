@@ -5,7 +5,7 @@ MAINTAINER sss
 WORKDIR /root
 
 # install openssh-server, openjdk and wget
-RUN yum update -y && yum install -y openssh-server  java-1.7.0-openjdk.x86_64 wget 
+RUN yum update -y && yum install -y openssh-server  java-1.7.0-openjdk.x86_64 wget  tar 
 #mkdir 
 RUN mkdir -p /opt/modules/hadoop /opt/modules/tomcat-7.0.78
 # install hadoop 2.7.2
