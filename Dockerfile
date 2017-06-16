@@ -6,8 +6,7 @@ WORKDIR /root
 
 # install openssh-server, openjdk and wget
 RUN yum update -y && yum install -y openssh-server  java-1.7.0-openjdk.x86_64 wget 
-RUN cat whereis java 
-
+RUN   whereis java  && ll 
 RUN mkdir  -p /opt/modules/
 # install hadoop 2.7.2
 RUN wget --no-check-certificate https://mirrors.cnnic.cn/apache/hadoop/common/hadoop-2.7.2/hadoop-2.7.2.tar.gz && \
